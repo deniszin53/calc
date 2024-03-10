@@ -1,0 +1,38 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:35px;
+    justify-content:center;
+    width: 250px;
+    margin:20px, 60px;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 250px;
+    height: 400px;
+    background-color: gray;
+    
+}
+.display {
+    width: 200px;
+    height: 65px;
+    background-color: white;
+    justify-self: flex-start;
+}
+.history {
+    position: absolute;
+    height: 350px;
+    width: 150px;
+    left:350px;
+    top:10px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap:10px;
+}
