@@ -33,6 +33,13 @@
     background-color: grey;
     display: flex;
     flex-direction: column;
-    align-content: center;
     gap:10px;
+}
+.hide {
+    display: none;
+}
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 3px;
+    
 }

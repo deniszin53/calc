@@ -1,7 +1,6 @@
 const but = document.getElementById('clav');
 const disp = document.getElementById('span');
 const hide_block = document.getElementById('his');
-hide_block.hidden = true;
 const history = [];
 let i = 0;
 let n=0;
@@ -27,11 +26,11 @@ but.onclick = (event) => {
             n++;
             break;
         case 'H':
-            i++;
-            if (i % 2 === 0) {
-                hide_block.hidden = true;
-            } else {
-                hide_block.hidden = false;
+            if (hide_block.classList.contains('hide')){
+                hide_block.classList.remove('hide');
+            }
+            else {
+                hide_block.classList.add('hide');
             }
             break;
     }
